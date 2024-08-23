@@ -8,7 +8,7 @@ const SearchForm = () => {
                 <circle cx="11" cy="11" r="8"></circle>
                 <path d="m21 21-4.3-4.3"></path>
             </svg>
-            <input className="flex h-10 border border-input px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 w-full rounded-lg bg-background pl-8" placeholder="Search..." type="search" name="q"></input>
+            <input className="flex h-10 border border-input px-3 py-2 text-sm focus-visible:outline-none w-full rounded-lg bg-background pl-8" placeholder="Search..." type="search" name="q"></input>
         </form>
     </div>
   )
