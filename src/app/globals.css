@@ -16,18 +16,22 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+
+
+.vercel_color svg{
+  @apply text-white ;
+}
+
+.gray_icon_color a img{
+  filter: invert(43%) sepia(9%) saturate(560%) hue-rotate(175deg) brightness(92%) contrast(87%);
+}
+
+.add_product img{
+  filter: invert(1);
 }
